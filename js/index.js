@@ -99,4 +99,8 @@ for(let i = 0; i < navs.length; i++){
     })
 }
 
+//removing element with DOM
 
+newImg.addEventListener('click', function(){
+    newImg.parentNode.removeChild(newImg);
+})
